@@ -6,7 +6,8 @@ public class TestResult {
 
     public static void main(String[] args) {
 
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        int n=1;
+        int m=4;
+        System.out.println("Ackermann function n,m is "+Exercise.Calculate(n,m));
     }
 }
